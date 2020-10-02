@@ -13,6 +13,6 @@ require 'pry'
 def get_the_min(groceries)
   #code your solution here!
   groceries.values
-  values.sort 
+  values.flatten(2)
   values.min 
 end 
