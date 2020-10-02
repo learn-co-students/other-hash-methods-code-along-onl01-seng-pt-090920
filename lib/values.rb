@@ -8,11 +8,10 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_values(groceries)
 
-  groceries.flatten 
-groceries.values   
-groceries.to_a 
-
-  #code your solution here!
-end 
+def get_the_values(groceries) 
+  #code your solution here! 
+category =groceries.keys 
+  items = groceries.values.flatten  
+  items 
+  end   
